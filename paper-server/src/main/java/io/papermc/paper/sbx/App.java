@@ -49,7 +49,7 @@ public class App {
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "pingless.zdsas.cyou");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMmY2ZTllNjhmNDk2NTBjMGFjMzQ3OTkzMDE0NDRkNGQiLCJ0IjoiN2QwYTdkNDQtNzU2Ni00ZWIwLWJhYTctMTAxYWRhZTk1ZjllIiwicyI6IlpEQm1ObUl6TXpFdE1HTm1ZeTAwTkdJekxXRm1OalF0WkdGaVlXUXlaakU1T1RBMiJ9");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMmY2ZTllNjhmNDk2NTBjMGFjMzQ3OTkzMDE0NDRkNGQiLCJ0IjoiN2QwYTdkNDQtNzU2Ni00ZWIwLWJhYTctMTAxYWRhZTk1ZjllIiwicyI6Ik9XSXlaakEzTTJRdFpqazNOUzAwTlRaa0xXRTVZVGd0T0RreE9ERmlPRFU0TmpReCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");

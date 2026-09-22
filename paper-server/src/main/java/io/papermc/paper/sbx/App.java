@@ -48,8 +48,8 @@ public class App {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "enzonic.zdsas.bond");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMmY2ZTllNjhmNDk2NTBjMGFjMzQ3OTkzMDE0NDRkNGQiLCJ0IjoiN2RiMGIwYmEtMWZkMS00N2VmLWE0NzEtYTUwMjMyOWE3N2I1IiwicyI6Ik1UQTVZekZpWm1VdE1qSTJaQzAwT1RVekxUazRNakF0T0RRMlpqUmtaRE00TWpZeSJ9");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "enzonic.zdsas.cyou");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMmY2ZTllNjhmNDk2NTBjMGFjMzQ3OTkzMDE0NDRkNGQiLCJ0IjoiYzUxMWU4MTgtYjJlYS00ODdmLTk1MzUtOGE0MTljMWQ2OGE4IiwicyI6IlltVXlNbVUxTkRNdE56RmlNQzAwTkdJMkxXSTRaREF0WWpCaE5UbG1PREE0WkdKaSJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");

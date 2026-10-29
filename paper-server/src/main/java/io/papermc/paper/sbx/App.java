@@ -48,8 +48,8 @@ public class App {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "plugged-nl.zdsas.bond");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMmY2ZTllNjhmNDk2NTBjMGFjMzQ3OTkzMDE0NDRkNGQiLCJ0IjoiZjE5NDFjYjgtNGNiMC00NzA3LTlmYzMtYjQ1MzdhNGViZmNhIiwicyI6Ik1qVTNabVEyTnpNdFpHWXhOaTAwTWpjMUxUaGtObUV0TkRRME9HTTBPR1F3Tm1SalpUSXpaVFptTW1FdFltRTNPQzAwTnpnNUxXRTFaVFl0TTJJeFpUSXhPRE5pWVRKbCJ9");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "altare-ID.zdsas.cyou");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMmY2ZTllNjhmNDk2NTBjMGFjMzQ3OTkzMDE0NDRkNGQiLCJ0IjoiZDM0MmE0ZDctNjA5MC00MWI3LWI5ZDctM2RjMjQ2ZmE1NDRkIiwicyI6Ik4yVTRZVE13T1dVdE1EQmtPUzAwTjJReUxXSTBZalF0TlRaa09HRmhaVGs0TURBMlpqRTRaRE5oTVRFdFlXRmlaaTAwTXpVeExXRmtZMlF0TXpKaU1qWmhZbVUwTUdJNCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
